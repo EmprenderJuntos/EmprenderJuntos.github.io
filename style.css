@@ -79,7 +79,7 @@ body, html {
 }
 
 .texto-abajo {
-  top: calc(-20% + 320px); /* Ajusta la posición del texto inferior, 320px es la altura aproximada del video */
+  top: calc(-15% + 320px); /* Ajusta la posición del texto inferior, 320px es la altura aproximada del video */
   font-size: 18px;
   width: 100%;
   max-width: 560px;
@@ -187,7 +187,12 @@ body, html {
 
 .t-1 {
   position: relative; /* Permite mover el elemento */
-  top: -4.1px; /* Ajusta el valor de 'top' para moverlo hacia arriba */
+  top: -2.5px; /* Ajusta el valor de 'top' para moverlo hacia arriba */
+}
+
+.t-3 {
+  position: relative; /* Permite mover el elemento */
+  top: -1.5px; /* Ajusta el valor de 'top' para moverlo hacia arriba */
 }
 
 .t-2 {
