@@ -200,6 +200,100 @@ body, html {
   top: -2px; /* Ajusta el valor de 'top' para moverlo hacia arriba */
 }
 
+.texto-descripcion1 {
+  max-width: 90%; /* Aumenta el ancho del contenedor del texto */
+  margin: 30px auto 0;
+}
+
+.parrafo1 {
+  font-size: 23px;
+  color: #1e3b8b;
+  text-align: center;
+  font-weight: 500;
+  width: 98vw;
+  margin-left: -8.5vw;
+  margin-bottom: 20px;
+}
+
+.parrafo1 a {
+  display: inline-flex; /* Para mantener el ícono y el texto en la misma línea */
+  align-items: center; /* Asegura que el ícono esté centrado verticalmente con el texto */
+}
+
+.parrafo1 img {
+  width: 20px; /* Ajusta el tamaño del ícono */
+  height: 20px;
+  margin-right: 0px; /* Añade espacio entre el ícono y el texto */
+  position: relative; /* Permite mover el ícono con ajustes */
+  top: -1px; /* Ajusta la posición vertical del ícono, puedes cambiar el valor según lo necesites */
+}
+
+.enlace-destacado2 {
+  color: #1e3b8b; /* Color más oscuro para el enlace */
+  font-weight: 700; /* Fuente más pesada para resaltar */
+  text-decoration: underline; /* Subrayar el texto */
+  font-size: 23px;
+}
+
+.imagen-ancha1 {
+  width: 100vw; /* Usa el 100% del ancho de la ventana */
+  height: auto;
+  display: block;
+  object-fit: cover; /* Ajusta la imagen manteniendo proporciones */
+  margin-bottom: 30px;
+  padding: 0;
+  position: relative; /* Necesario para mover la imagen */
+  left: 50%; /* Mueve la imagen 50% desde la izquierda */
+  transform: translateX(-50%); /* Centra la imagen */
+}
+
+.imagen-ancha2 {
+  width: 100vw; /* Usa el 100% del ancho de la ventana */
+  height: auto;
+  display: block;
+  object-fit: cover; /* Ajusta la imagen manteniendo proporciones */
+  margin-bottom: 0px;
+  padding: 0;
+  position: relative; /* Necesario para mover la imagen */
+  left: 50%; /* Mueve la imagen 50% desde la izquierda */
+  transform: translateX(-50%); /* Centra la imagen */
+}
+
+.texto-descripcion2 {
+  max-width: 90%; /* Aumenta el ancho del contenedor del texto */
+  margin: 15px auto 0;
+}
+
+.parrafo2 {
+  font-size: 23px;
+  color: #1e3b8b;
+  text-align: center;
+  font-weight: 500;
+  width: 98vw;
+  margin-left: -8.5vw;
+  margin-bottom: 0px;
+}
+
+.parrafo2 a {
+  display: inline-flex; /* Para mantener el ícono y el texto en la misma línea */
+  align-items: center; /* Asegura que el ícono esté centrado verticalmente con el texto */
+}
+
+.parrafo2 img {
+  width: 20px; /* Ajusta el tamaño del ícono */
+  height: 20px;
+  margin-right: 0px; /* Añade espacio entre el ícono y el texto */
+  position: relative; /* Permite mover el ícono con ajustes */
+  top: -1px; /* Ajusta la posición vertical del ícono, puedes cambiar el valor según lo necesites */
+}
+
+.enlace-destacado3 {
+  color: #1e3b8b; /* Color más oscuro para el enlace */
+  font-weight: 700; /* Fuente más pesada para resaltar */
+  text-decoration: underline; /* Subrayar el texto */
+  font-size: 23px;
+}
+
 .texto-final {
   position: absolute;
   left: 50%;
